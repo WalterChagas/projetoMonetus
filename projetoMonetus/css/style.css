@@ -1,0 +1,79 @@
+
+.container
+{
+    width: 900px;
+    height: 500px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+body
+{
+    background: url(../img/fundo.png) no-repeat;
+    background-size: cover;
+}
+
+p
+{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+
+
+h2
+{
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+tr
+{
+    font-family :'Open Sans Condensed', sans-serif;
+    text-align: center;
+    font-size:20px;   
+}
+
+td
+{
+    font-family :'Open Sans Condensed', sans-serif;
+    text-align: center
+
+    
+}
+
+th
+{
+    font-family :'Open Sans Condensed', sans-serif;
+    text-align: center;
+    font-size:20px;  
+}
+
+label
+{
+    display: block;
+    font-family: 'Bitter', serif;
+    margin-left: 50px;
+    font-family :'Open Sans Condensed', sans-serif;
+    font-size:20px; 
+
+
+}
+
+input
+{
+    display: block;
+    font-family: 'Bitter', serif;
+    width: 80%;
+    margin-left: 50px;
+}
+
+.this button 
+{
+    margin-left: 40%;
+    margin-top: 10%;
+}
+
+.jumbotron {
+    background:rgba(204, 204, 204, 0.74);
+}

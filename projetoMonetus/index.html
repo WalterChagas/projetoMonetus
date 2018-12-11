@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bolsa de Valores</title>
+
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Anton|Bitter" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="jumbotron text-center">
+        <h2>Consulta Bolsa de Valores</h2>
+        <p>Faça a busca dos valores das ações desejadas com apenas um clique!</p>
+    </div>
+
+    <div class="container">
+        <div class="jumbotron">
+
+            <label>Digite abaixo o codigo da ação desejada:</label>
+            <div id="formulario" class="form-inline">
+                <input type="text" id="codAcao" name="acao" class="form-control" style="min-width:400px">
+                <button class="btn btn-primary btn-md" id="consultar">Consultar</button>
+            </div>
+        </div>
+        <div id="acoes">
+        </div>
+    </div>
+
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
